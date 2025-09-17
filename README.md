@@ -102,6 +102,36 @@ graph TD
 ```
 ````
 
+## Development and Contributing
+
+### Setting up for Development
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/ashokkasti/markdown-server.git
+   cd markdown-server
+   ```
+
+2. Install dependencies
+   ```bash
+   npm install
+   ```
+
+3. Run locally
+   ```bash
+   npm start
+   ```
+
+### Automated Publishing
+
+This package uses GitHub Actions to automatically publish to npm when a new release is created.
+
+1. When you're ready to release a new version, create a new release in GitHub
+2. Tag the release with a semantic version (e.g., `v1.0.1`)
+3. The GitHub Actions workflow will automatically publish the package to npm
+
+> Note: The repository owner needs to add an NPM_TOKEN secret to the GitHub repository settings. This token should have publish permissions for the npm package.
+
 ## License
 
 MIT
