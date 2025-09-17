@@ -1,6 +1,6 @@
-# Contributing to markdown-server
+# Contributing to http-server-markdown
 
-Thank you for your interest in contributing to markdown-server! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to http-server-markdown! This document provides guidelines and instructions for contributing.
 
 ## Code of Conduct
 
@@ -9,7 +9,7 @@ Please be respectful and considerate of others when contributing to this project
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR-USERNAME/markdown-server.git`
+2. Clone your fork: `git clone https://github.com/YOUR-USERNAME/http-server-markdown.git`
 3. Create a branch for your changes: `git checkout -b feature/your-feature-name`
 4. Install dependencies: `npm install`
 
@@ -52,4 +52,4 @@ The project maintainers will handle releases. If you believe a new release is ne
 
 If you need help with contributing, please open an issue with your question or concern.
 
-Thank you for contributing to markdown-server!
+Thank you for contributing to http-server-markdown!

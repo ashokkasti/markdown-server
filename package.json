@@ -1,11 +1,11 @@
 {
-  "name": "markdown-server",
+  "name": "http-server-markdown",
   "version": "1.0.0",
   "description": "A CLI tool to serve and preview markdown files with directory navigation",
   "main": "index.js",
   "type": "commonjs",
   "bin": {
-    "markdown-server": "./bin/cli.js"
+    "http-server-markdown": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"No tests yet\" && exit 0",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ashokkasti/markdown-server.git"
+    "url": "https://github.com/ashokkasti/http-server-markdown.git"
   },
   "bugs": {
-    "url": "https://github.com/ashokkasti/markdown-server/issues"
+    "url": "https://github.com/ashokkasti/http-server-markdown/issues"
   },
-  "homepage": "https://github.com/ashokkasti/markdown-server#readme",
+  "homepage": "https://github.com/ashokkasti/http-server-markdown#readme",
   "engines": {
     "node": ">=12.0.0"
   },

@@ -1,4 +1,4 @@
-# markdown-server
+# http-server-markdown
 
 A CLI tool to serve and preview markdown files with directory navigation, code highlighting, and mermaid diagram support.
 
@@ -12,16 +12,16 @@ A CLI tool to serve and preview markdown files with directory navigation, code h
 
 ## Installation
 
-You can use `markdown-server` without installing it by using `npx`:
+You can use `http-server-markdown` without installing it by using `npx`:
 
 ```bash
-npx markdown-server
+npx http-server-markdown
 ```
 
 Or you can install it globally:
 
 ```bash
-npm install -g markdown-server
+npm install -g http-server-markdown
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ npm install -g markdown-server
 Navigate to any directory containing markdown files and run:
 
 ```bash
-npx markdown-server
+npx http-server-markdown
 ```
 
 This will start a server on port 3000 and open your browser automatically.
@@ -39,7 +39,7 @@ This will start a server on port 3000 and open your browser automatically.
 ### Command Line Options
 
 ```
-Usage: markdown-server [options]
+Usage: http-server-markdown [options]
 
 A CLI tool to serve and preview markdown files with directory navigation
 
@@ -56,19 +56,19 @@ Options:
 Serve files from a specific directory:
 
 ```bash
-npx markdown-server --directory ./docs
+npx http-server-markdown --directory ./docs
 ```
 
 Use a different port:
 
 ```bash
-npx markdown-server --port 8080
+npx http-server-markdown --port 8080
 ```
 
 Start server without opening browser:
 
 ```bash
-npx markdown-server --no-open
+npx http-server-markdown --no-open
 ```
 
 ## Features in Detail
@@ -108,8 +108,8 @@ graph TD
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/ashokkasti/markdown-server.git
-   cd markdown-server
+   git clone https://github.com/ashokkasti/http-server-markdown.git
+   cd http-server-markdown
    ```
 
 2. Install dependencies

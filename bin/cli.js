@@ -8,7 +8,7 @@ const packageJson = require('../package.json');
 // We'll use dynamic import for open package
 
 program
-  .name('markdown-server')
+  .name('http-server-markdown')
   .description('A CLI tool to serve and preview markdown files with directory navigation')
   .version(packageJson.version)
   .option('-p, --port <port>', 'Port to use', '3000')
